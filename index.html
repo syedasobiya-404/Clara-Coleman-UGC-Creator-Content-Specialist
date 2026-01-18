@@ -1,0 +1,543 @@
+#6C0815
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clara Coleman | UGC Creator & Content Specialist</title>
+  <meta name="description" content="Professional UGC content creator specializing in authentic, engaging content for brands.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: '#141414',
+            'dark-foreground': '#fafafa',
+            beige: '#f0ebe3',
+            'beige-dark': '#e5ded3',
+            cream: '#f7f5f0',
+            'cream-dark': '#ebe6db',
+            gold: '#c9a962',
+            'text-primary': '#fafafa',
+            'text-muted': '#a6a6a6',
+            'text-dark': '#262626',
+            'text-dark-muted': '#737373',
+          },
+          fontFamily: {
+            serif: ["'Playfair Display'", 'serif'],
+            sans: ["'Inter'", 'sans-serif'],
+          },
+          borderRadius: {
+            '2xl': '1.5rem',
+            '3xl': '2rem',
+          },
+        },
+      },
+    }
+  </script>
+   <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body class="bg-beige text-text-dark overflow-x-hidden">
+
+  <!-- Navigation -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="#" class="font-serif text-xl italic text-text-dark">Clara Coleman</a>
+        
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#about" class="text-sm text-text-dark hover:opacity-70 transition-opacity">About</a>
+          <a href="#work" class="text-sm text-text-dark hover:opacity-70 transition-opacity">Work</a>
+          <a href="#pricing" class="text-sm text-text-dark hover:opacity-70 transition-opacity">Pricing</a>
+          <a href="#contact" class="text-sm text-text-dark hover:opacity-70 transition-opacity">Contact</a>
+          <a href="#contact" class="btn-primary text-sm px-6 py-2">Get in Touch</a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="md:hidden hidden py-6 space-y-4">
+        <a href="#about" class="block text-text-dark hover:opacity-70">About</a>
+        <a href="#work" class="block text-text-dark hover:opacity-70">Work</a>
+        <a href="#pricing" class="block text-text-dark hover:opacity-70">Pricing</a>
+        <a href="#contact" class="block text-text-dark hover:opacity-70">Contact</a>
+        <a href="#contact" class="btn-primary inline-block text-center w-full mt-4">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-beige min-h-screen relative overflow-hidden flex items-center justify-center">
+    <!-- Sparkles -->
+    <div class="sparkle-star top-20 left-10 text-dark/60 sparkle"><svg class="w-3 h-3" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="sparkle-star top-32 right-20 text-dark/40 sparkle" style="animation-delay: 0.5s"><svg class="w-4 h-4" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="sparkle-star bottom-40 left-1/4 text-dark/50 sparkle" style="animation-delay: 1s"><svg class="w-3 h-3" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    
+    <div class="container mx-auto px-6 py-20 flex flex-col items-center justify-center text-center">
+      <!-- Curved Text -->
+      <div class="mb-8 animate-scale-in">
+        <svg viewBox="0 0 300 100" class="w-64 md:w-80 h-auto">
+          <defs>
+            <path id="curve" d="M 30 80 Q 150 -20 270 80" fill="transparent"/>
+          </defs>
+          <text class="fill-dark font-serif text-lg" style="letter-spacing: 0.3em; font-size: 14px;">
+            <textPath href="#curve" startOffset="50%" text-anchor="middle">UGC PORTFOLIO</textPath>
+          </text>
+        </svg>
+      </div>
+      
+      <!-- Hero Image -->
+      <div class="relative animate-fade-in-up" style="animation-delay: 0.2s">
+        <div class="relative w-72 md:w-96 aspect-[3/4] rounded-t-full overflow-hidden shadow-xl">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop&crop=faces" alt="Clara Coleman" class="w-full h-full object-cover object-top">
+        </div>
+        <div class="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-dark text-dark-foreground px-8 py-3 rounded-full animate-fade-in-up" style="animation-delay: 0.6s">
+          <p class="font-serif text-lg md:text-xl italic">by Clara Coleman</p>
+        </div>
+      </div>
+      
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-10 left-1/2 animate-bounce-slow">
+        <div class="w-6 h-10 border-2 border-dark/30 rounded-full flex justify-center pt-2">
+          <div class="w-1.5 h-3 bg-dark/50 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-dark text-dark-foreground py-20 md:py-32 relative overflow-hidden">
+    <div class="sparkle-star top-20 right-20 text-dark-foreground/30 sparkle"><svg class="w-4 h-4" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+        <!-- Text -->
+        <div class="order-2 md:order-1 reveal">
+          <h2 class="text-4xl md:text-5xl lg:text-6xl font-medium italic mb-8">Who am I?</h2>
+          <p class="text-lg md:text-xl font-light leading-relaxed text-text-muted mb-6">
+            Hey there! Nice to meet you! My name is Clara Coleman and I am a freelance content creator with 4 years of experience.
+          </p>
+          <p class="text-base md:text-lg font-light text-text-muted/80">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        
+        <!-- Image -->
+        <div class="order-1 md:order-2 flex justify-center reveal-right">
+          <div class="relative">
+            <div class="w-64 md:w-80 aspect-[3/4] rounded-t-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&h=700&fit=crop&crop=faces" alt="Clara Coleman" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute -inset-4 border-2 border-dark-foreground/20 rounded-t-full -z-10"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is UGC Section -->
+  <section class="bg-beige py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+        <!-- Card -->
+        <div class="reveal">
+          <div class="card-light max-w-lg p-8 md:p-10">
+            <h2 class="text-3xl md:text-4xl font-medium italic text-text-dark mb-6">What is UGC?</h2>
+            <p class="text-base md:text-lg font-light text-text-dark-muted mb-6">
+              UGC stands for "user-generated content." It is mostly content that creators like me produce for brands to publish on their own social media profiles.
+            </p>
+            <p class="text-sm md:text-base font-light text-text-dark-muted mb-8">
+              It is a time-saving and cost-effective strategy for brands to get fresh photo and video content for their socials that also feels genuine and authentic to the audience.
+            </p>
+            <button class="btn-primary">work with me</button>
+          </div>
+        </div>
+        
+        <!-- Image -->
+        <div class="flex justify-center reveal-right">
+          <div class="w-72 md:w-80 aspect-square rounded-3xl overflow-hidden shadow-xl">
+            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=600&fit=crop" alt="UGC Content" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="bg-dark text-dark-foreground py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="reveal mb-12">
+        <h2 class="text-3xl md:text-4xl font-medium italic mb-4">UGC benefits for your brand</h2>
+        <p class="text-base md:text-lg font-light text-text-muted max-w-xl">
+          Discover why brands are investing in UGC content for their marketing strategy.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Stats -->
+        <div class="space-y-8">
+          <div class="reveal">
+            <div class="flex items-baseline gap-4 mb-4">
+              <span class="text-6xl md:text-8xl font-medium">93%</span>
+              <p class="text-sm text-text-muted max-w-xs">
+                of customers believe user generated content is very helpful when making a purchasing decision.
+              </p>
+            </div>
+            <p class="text-xs uppercase tracking-widest text-text-muted/60">SOURCE: WWW.EVERYONESOCIAL.COM</p>
+          </div>
+          
+          <ul class="space-y-4 reveal" style="transition-delay: 0.2s">
+            <li class="flex items-center gap-3">
+              <div class="w-5 h-5 rounded-full bg-dark-foreground/20 flex items-center justify-center">
+                <svg class="w-3 h-3 text-dark-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span class="text-sm text-text-muted">Authentic content that resonates with audiences</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div class="w-5 h-5 rounded-full bg-dark-foreground/20 flex items-center justify-center">
+                <svg class="w-3 h-3 text-dark-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span class="text-sm text-text-muted">Cost-effective marketing solution</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div class="w-5 h-5 rounded-full bg-dark-foreground/20 flex items-center justify-center">
+                <svg class="w-3 h-3 text-dark-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span class="text-sm text-text-muted">Higher engagement rates than traditional ads</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <div class="w-5 h-5 rounded-full bg-dark-foreground/20 flex items-center justify-center">
+                <svg class="w-3 h-3 text-dark-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <span class="text-sm text-text-muted">Builds trust and credibility for your brand</span>
+            </li>
+          </ul>
+          
+          <button class="btn-outline reveal" style="transition-delay: 0.3s">work with me</button>
+        </div>
+        
+        <!-- Image -->
+        <div class="flex justify-center reveal-right">
+          <div class="w-full max-w-md aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop" alt="Benefits" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Work Section -->
+  <section id="work" class="bg-beige py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-16 reveal">
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-medium italic text-text-dark">MY WORK</h2>
+        <p class="text-xs uppercase tracking-widest text-text-dark-muted">VIDEO UGC CONTENT</p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div class="flex flex-col items-center gap-4 reveal" style="transition-delay: 0.1s">
+          <div class="phone-mockup">
+            <div class="phone-screen w-40 md:w-48">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=540&fit=crop" alt="Beauty Product" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <p class="text-xs uppercase tracking-widest text-text-dark-muted">BRAND NAME HERE</p>
+        </div>
+        
+        <div class="flex flex-col items-center gap-4 reveal" style="transition-delay: 0.2s">
+          <div class="phone-mockup">
+            <div class="phone-screen w-40 md:w-48">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=540&fit=crop" alt="Fashion Product" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <p class="text-xs uppercase tracking-widest text-text-dark-muted">BRAND NAME HERE</p>
+        </div>
+        
+        <div class="flex flex-col items-center gap-4 reveal" style="transition-delay: 0.3s">
+          <div class="phone-mockup">
+            <div class="phone-screen w-40 md:w-48">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=540&fit=crop" alt="Shoes Product" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <p class="text-xs uppercase tracking-widest text-text-dark-muted">BRAND NAME HERE</p>
+        </div>
+        
+        <div class="flex flex-col items-center gap-4 reveal" style="transition-delay: 0.4s">
+          <div class="phone-mockup">
+            <div class="phone-screen w-40 md:w-48">
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=300&h=540&fit=crop" alt="Bag Product" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <p class="text-xs uppercase tracking-widest text-text-dark-muted">BRAND NAME HERE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Photography & Client Love -->
+  <section class="bg-cream py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16">
+        <!-- Product Photography -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-medium italic text-text-dark mb-8 reveal">Product<br>Photography</h2>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg reveal" style="transition-delay: 0.1s">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=540&fit=crop" alt="Product 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+            <div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg reveal" style="transition-delay: 0.2s">
+              <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=540&fit=crop" alt="Product 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Client Love -->
+        <div>
+          <h2 class="text-3xl md:text-4xl text-text-dark mb-8 reveal">
+            <span class="italic">Client</span><br>
+            <span class="font-serif text-4xl md:text-5xl">Love</span>
+          </h2>
+          
+          <div class="space-y-6">
+            <div class="p-6 bg-white rounded-2xl shadow-lg reveal" style="transition-delay: 0.1s">
+              <p class="text-sm text-text-dark mb-4">"Working with Clara was an absolute pleasure. The content exceeded our expectations!"</p>
+              <p class="text-xs uppercase tracking-widest text-text-dark-muted">CHRISTINA FROM</p>
+              <p class="text-xs text-text-dark-muted/60">FASHION BRAND</p>
+            </div>
+            
+            <div class="p-6 bg-white rounded-2xl shadow-lg reveal" style="transition-delay: 0.2s">
+              <p class="text-sm text-text-dark mb-4">"Our engagement increased by 200% after using Clara's UGC content."</p>
+              <p class="text-xs uppercase tracking-widest text-text-dark-muted">ANDREA VALENTINE</p>
+              <p class="text-xs text-text-dark-muted/60">BEAUTY COMPANY</p>
+            </div>
+            
+            <div class="p-6 bg-white rounded-2xl shadow-lg reveal" style="transition-delay: 0.3s">
+              <p class="text-sm text-text-dark mb-4">"Professional, creative, and incredibly easy to work with. Highly recommended!"</p>
+              <p class="text-xs uppercase tracking-widest text-text-dark-muted">MARIA SANTOS</p>
+              <p class="text-xs text-text-dark-muted/60">CLOTHING STORE OWNER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="bg-dark text-dark-foreground py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-medium italic text-center mb-16 reveal">How it works</h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center reveal" style="transition-delay: 0.1s">
+          <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-dark-foreground/10 flex items-center justify-center hover:bg-dark-foreground/20 transition-colors">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+          </div>
+          <h3 class="font-serif text-lg mb-2">Initial Contact</h3>
+          <p class="text-sm text-text-muted">Reach out and let's discuss your project needs</p>
+        </div>
+        
+        <div class="text-center reveal" style="transition-delay: 0.2s">
+          <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-dark-foreground/10 flex items-center justify-center hover:bg-dark-foreground/20 transition-colors">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          </div>
+          <h3 class="font-serif text-lg mb-2">Brief & Agreement</h3>
+          <p class="text-sm text-text-muted">We align on deliverables, timeline, and pricing</p>
+        </div>
+        
+        <div class="text-center reveal" style="transition-delay: 0.3s">
+          <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-dark-foreground/10 flex items-center justify-center hover:bg-dark-foreground/20 transition-colors">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          </div>
+          <h3 class="font-serif text-lg mb-2">Content Creation</h3>
+          <p class="text-sm text-text-muted">I create authentic, engaging content for your brand</p>
+        </div>
+        
+        <div class="text-center reveal" style="transition-delay: 0.4s">
+          <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-dark-foreground/10 flex items-center justify-center hover:bg-dark-foreground/20 transition-colors">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+          </div>
+          <h3 class="font-serif text-lg mb-2">Delivery</h3>
+          <p class="text-sm text-text-muted">Receive your polished content ready to publish</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="bg-beige py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16 reveal">
+        <p class="text-xs uppercase tracking-widest text-text-dark-muted mb-4">PRICING</p>
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-medium italic text-text-dark">Packages</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Basic -->
+        <div class="card-dark reveal hover:-translate-y-2 transition-transform" style="transition-delay: 0.1s">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl text-dark-foreground mb-2">Basic</h3>
+            <p class="text-sm text-text-muted">Perfect for small brands</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-3xl font-medium text-dark-foreground">$150</span>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">3 UGC Videos</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">1 Revision Round</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">7 Days Delivery</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Commercial Rights</span></li>
+          </ul>
+          <button class="btn-outline w-full">Choose Plan</button>
+        </div>
+        
+        <!-- Standard -->
+        <div class="card-dark ring-2 ring-dark-foreground/30 reveal hover:-translate-y-2 transition-transform" style="transition-delay: 0.2s">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl text-dark-foreground mb-2">Standard</h3>
+            <p class="text-sm text-text-muted">Most popular choice</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-3xl font-medium text-dark-foreground">$300</span>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">6 UGC Videos</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">2 Revision Rounds</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">5 Days Delivery</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Commercial Rights</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Raw Footage</span></li>
+          </ul>
+          <button class="btn-secondary w-full">Choose Plan</button>
+        </div>
+        
+        <!-- Premium -->
+        <div class="card-dark reveal hover:-translate-y-2 transition-transform" style="transition-delay: 0.3s">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl text-dark-foreground mb-2">Premium</h3>
+            <p class="text-sm text-text-muted">Full content package</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-3xl font-medium text-dark-foreground">$500</span>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">10 UGC Videos</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Unlimited Revisions</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Priority Delivery</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Commercial Rights</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Raw Footage</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Strategy Call</span></li>
+          </ul>
+          <button class="btn-outline w-full">Choose Plan</button>
+        </div>
+        
+        <!-- Custom -->
+        <div class="card-dark reveal hover:-translate-y-2 transition-transform" style="transition-delay: 0.4s">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl text-dark-foreground mb-2">Custom</h3>
+            <p class="text-sm text-text-muted">Tailored for your brand</p>
+          </div>
+          <div class="mb-6">
+            <span class="text-3xl font-medium text-dark-foreground">Contact</span>
+          </div>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Custom Deliverables</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Flexible Timeline</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Dedicated Support</span></li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-dark-foreground/60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span class="text-sm text-text-muted">Full Collaboration</span></li>
+          </ul>
+          <button class="btn-outline w-full">Choose Plan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Section -->
+  <section class="bg-dark text-dark-foreground py-20 md:py-32">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16 reveal">
+        <p class="text-xs uppercase tracking-widest text-text-muted mb-4">Still not sure if what you need?</p>
+        <h2 class="text-3xl md:text-4xl font-medium italic">The numbers speak for themselves</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-12">
+        <div class="text-center reveal" style="transition-delay: 0.1s">
+          <span class="text-6xl md:text-8xl font-medium block mb-4">70%</span>
+          <p class="text-sm text-text-muted max-w-xs mx-auto">of consumers prefer to learn about products through content</p>
+        </div>
+        <div class="text-center reveal" style="transition-delay: 0.2s">
+          <span class="text-6xl md:text-8xl font-medium block mb-4">73%</span>
+          <p class="text-sm text-text-muted max-w-xs mx-auto">higher engagement with UGC vs brand-created content</p>
+        </div>
+        <div class="text-center reveal" style="transition-delay: 0.3s">
+          <span class="text-6xl md:text-8xl font-medium block mb-4">84%</span>
+          <p class="text-sm text-text-muted max-w-xs mx-auto">of millennials say UGC influences their purchase decisions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-beige py-20 md:py-32 relative overflow-hidden">
+    <div class="sparkle-star top-20 left-20 text-dark/40 sparkle"><svg class="w-4 h-4" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    <div class="sparkle-star bottom-32 right-24 text-dark/30 sparkle"><svg class="w-3 h-3" viewBox="0 0 24 24"><path d="M12 0L14.59 9.41L24 12L14.59 14.59L12 24L9.41 14.59L0 12L9.41 9.41L12 0Z"/></svg></div>
+    
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-medium italic text-text-dark mb-4">Let's work<br>together</h2>
+        <p class="text-lg md:text-xl font-light text-text-dark-muted mb-12">
+          Ready to elevate your brand with authentic content? Let's create something beautiful together.
+        </p>
+        
+        <div class="flex justify-center gap-6 mb-12">
+          <a href="https://instagram.com" target="_blank" class="w-14 h-14 rounded-full bg-dark flex items-center justify-center hover:scale-110 transition-transform">
+            <svg class="w-6 h-6 text-dark-foreground" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="mailto:hello@claracoleman.com" class="w-14 h-14 rounded-full bg-dark flex items-center justify-center hover:scale-110 transition-transform">
+            <svg class="w-6 h-6 text-dark-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+          </a>
+        </div>
+        
+        <button class="btn-primary text-lg px-12 py-4">Get in Touch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-dark-foreground py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="font-serif text-4xl md:text-5xl italic mb-4">Clara Coleman</h3>
+      <p class="text-xs uppercase tracking-widest text-text-muted mb-8">UGC CREATOR & CONTENT SPECIALIST</p>
+      
+      <div class="flex justify-center gap-8 mb-8">
+        <a href="#about" class="text-sm text-text-muted hover:text-dark-foreground transition-colors">About</a>
+        <a href="#work" class="text-sm text-text-muted hover:text-dark-foreground transition-colors">Work</a>
+        <a href="#pricing" class="text-sm text-text-muted hover:text-dark-foreground transition-colors">Pricing</a>
+        <a href="#contact" class="text-sm text-text-muted hover:text-dark-foreground transition-colors">Contact</a>
+      </div>
+      
+      <div class="w-16 h-px bg-dark-foreground/20 mx-auto mb-8"></div>
+      
+      <p class="text-xs text-text-muted/60">© 2026 Clara Coleman. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="main.js"></script>
+</body>
+</html>
